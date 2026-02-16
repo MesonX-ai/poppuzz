@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Pop Puzzle",
+    "slug": "poppuzz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "description": "Match & Pop Bubbles! A fun puzzle game by Shiva R Dhanuskodi - MesonX",
+    "primaryColor": "#4A90E2",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A90E2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mesonx.poppuzzle",
+      "infoPlist": {
+        "UIBackgroundModes": [],
+        "NSCameraUsageDescription": "This app does not use the camera.",
+        "NSMicrophoneUsageDescription": "This app does not use the microphone."
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "appStoreUrl": "https://apps.apple.com/app/poppuzzle/id123456789"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4A90E2"
+      },
+      "package": "com.mesonx.poppuzzle",
+      "versionCode": 1,
+      "permissions": [],
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.mesonx.poppuzzle"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ],
+    "privacy": "public",
+    "scheme": "poppuzzle",
+    "githubUrl": "https://github.com/anishiv/poppuzz",
+    "extra": {
+      "eas": {
+        "projectId": "65e26f59-a750-4d3b-b259-ef0955f57ec7"
+      }
+    },
+    "owner": "mesonsoft"
+  }
+}
